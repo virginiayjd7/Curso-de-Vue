@@ -1,11 +1,12 @@
 <template>
-<h1>about page</h1>
-<hr>
-<h2>{{name}}</h2>
-<button @click="onChangeName">
-Cambiar nombre
-</button>
+    <h1>about page</h1>
+    <hr>
+    <h2>{{name}}</h2>
+    <button @click="onChangeName">
+    Cambiar nombre
+    </button>
 </template>
+
 <script>
 export default{
     data(){

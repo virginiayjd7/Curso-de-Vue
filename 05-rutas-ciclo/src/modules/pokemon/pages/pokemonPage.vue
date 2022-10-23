@@ -1,8 +1,8 @@
 <template>
-<h1>pokemon: <span>#{{id}}</span></h1>
-<div v-if="pokemon">
-<img :src="pokemon.sprites.front_default" :alt="pokemon.name">
-</div>
+    <h1>pokemon: <span>#{{id}}</span></h1>
+    <div v-if="pokemon">
+        <img :src="pokemon.sprites.front_default" :alt="pokemon.name">
+    </div>
 </template>
 <script>
 export default {
